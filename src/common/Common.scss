@@ -1,0 +1,24 @@
+// Small Phones
+@mixin xsm {
+  @media screen and (max-width: 354px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin xmd {
+  @media screen and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: 1279px) {
+    @content;
+  }
+}

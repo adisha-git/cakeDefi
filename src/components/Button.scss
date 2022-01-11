@@ -1,0 +1,16 @@
+.btnComponent{
+    height: 20px;
+    border: 1px solid #cccccc;
+    background-color: #6400FF;
+    color: #ffff;
+    padding: 15px 20px;
+    width: 140px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btnComponent:hover{
+    background-color: #ff00af;
+    color: #ffffff;
+}
